@@ -1,4 +1,7 @@
 <h1>My dotfiles</h1>
+
+<p>I'm use WSL, btw</p>
+
 <details>
   <summary>How to use</summary>
   <p>Run:</p>
