@@ -1,0 +1,39 @@
+{
+	"layer": "top",
+	"position": "top",
+
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["clock"],
+	"modules-right": ["pulseaudio", "battery"],
+
+	"clock": {
+        "format": " {:%I:%M %p}",
+        "rotate": 0,
+        "tooltip-format": "<span>{calendar}</span>",
+        "calendar": {
+        	"mode": "month",
+        	"format": {
+                "months": "<span>{}</span>",
+                "days": "<span>{}</span>",
+                "weekdays": "<span>{}</span>",
+                "today": "<span><b>{}</b></span>"
+        	}
+        }
+    },
+
+	"battery": {
+		"format": "{icon} {capacity}%",
+		"format-icons": ["", "", "", "", ""],
+		"interval": 1,
+		"states": {
+    	  "warning": 30,
+    	  "critical": 15
+    	}
+	},
+
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-icons": ["", ""],
+		"format-muted": " {volume}%"
+	}
+} 

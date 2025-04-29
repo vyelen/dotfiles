@@ -1,0 +1,9 @@
+{
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontSize": 17
+}

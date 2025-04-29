@@ -1,0 +1,69 @@
+* {
+    font-family: "FiraCode Nerd Font";
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modules-center {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 5px 5px 0px 0px;
+    border: 1px solid gray;
+    padding: 0px 5px 0px 5px;
+}
+
+.modules-right {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 5px 5px 0px 0px;
+    border: 1px solid gray;
+    padding: 0px 5px 0px 5px;
+}
+
+#workspaces {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 5px 5px 0px 0px;
+    border: 1px solid gray;
+    padding: 0px 5px 0px 5px;
+}
+
+#workspaces button {
+    color: wheat;
+    padding: 3px;
+    border-radius: 0px;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0);
+}
+
+#workspaces button.active {
+    background-color: rgba(135, 206, 235, .7);
+}
+
+#window, #clock, #battery {
+    color: wheat;
+}
+
+#battery.warning {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#battery.critical {
+    color: red;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#battery.charging {
+	color: lightgreen;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#pulseaudio {
+    color: wheat;
+    margin-right: 10px;
+}
